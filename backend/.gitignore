@@ -1,0 +1,32 @@
+# Python specific files
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Flask-specific files
+instance/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+
+# Uploaded media
+uploads/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints
+
+# macOS specific files
+.DS_Store
+
+# Ignore IDE specific files
+.vscode/
+.idea/
